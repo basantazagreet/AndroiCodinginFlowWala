@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:text="SoundPool"
+       android:background="#6BE66E"
+       android:layout_marginVertical="10dp"
+       android:onClick="gotoSound"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:text="Goto Camera"
+       android:background="#6BE66E"
+       android:layout_marginVertical="10dp"
+       android:onClick="gotoCamera"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:text="Shared Preferences"
+       android:background="#6BE66E"
+       android:layout_marginVertical="10dp"
+       android:onClick="gotoSharedPreferences"
+       />
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:layout_marginVertical="10dp"
+       android:background="#6BE66E"
+       android:onClick="gotoLoginActivity"
+       android:text="Login" />
+
+
+   <Button
+       android:id="@+id/buttonsignup"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:layout_marginVertical="10dp"
+       android:background="#6BE66E"
+       android:onClick="gotosignupActivity"
+       android:text="Signup" />
+
+</LinearLayout>
